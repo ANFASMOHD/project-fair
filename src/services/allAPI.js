@@ -10,13 +10,13 @@ import { commonAPI } from "./commonAPI"
 }
 // login api
  export const loginAPI =async(user)=>{
-  return await commonAPI("POST",`${BASE_URL}`,user,"")
+  return await commonAPI("POST",`${BASE_URL}/user/login`,user,"")
  }
 
  //add api
  //add api
 export const addProjectAPI = async(reqBody,reqHeader)=>{
-  return await commonAPI("POST",`${BASE_URL}`,reqBody,reqHeader)
+  return await commonAPI("POST",`${BASE_URL}/project/add`,reqBody,reqHeader)
  }
 
  //homeproject
