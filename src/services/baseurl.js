@@ -1,2 +1,2 @@
   
-   export const BASE_URL='https://project-fair-backend-irim.onrender.com'
+   export const BASE_URL='https://project-fair-bakend.onrender.com'
